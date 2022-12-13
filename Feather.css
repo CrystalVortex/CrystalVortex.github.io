@@ -1,24 +1,37 @@
+
 .btn_white {
     border: 0px;
     height: 50px;
     border-radius: 5px;
-    background-color: #cfcfcf;
+    background-color: #e7e7e7;
     transition: 0.2s;
     
 }
 
-.btn_white:hover {
-    cursor: pointer;
-    filter: brightness(50%);
-    transition: 0.2s;
-}
 
 .btn_white:active {
     transition: 0.2s;
-    filter: brightness(30%);
-
+    filter: brightness(70%);
 }
 
+/* Black Buttons */
+
+.btn_black {
+    border: 0px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #000000;
+    transition: 0.2s;
+    color: white;
+}
+
+
+
+.btn_black:active {
+    transition: 0.2s;
+    filter: brightness(70%);
+
+}
 
 /* Blue Buttons */
 
@@ -31,15 +44,11 @@
     
 }
 
-.btn_blue:hover {
-    cursor: pointer;
-    filter: brightness(50%);
-    transition: 0.2s;
-}
+
 
 .btn_blue:active {
     transition: 0.2s;
-    filter: brightness(30%);
+    filter: brightness(70%);
 
 }
 /* Red Buttons */
@@ -54,15 +63,10 @@
     
 }
 
-.btn_red:hover {
-    cursor: pointer;
-    filter: brightness(50%);
-    transition: 0.2s;
-}
 
 .btn_red:active {
     transition: 0.2s;
-    filter: brightness(30%);
+    filter: brightness(70%);
 
 }
 
@@ -77,16 +81,11 @@
     
 }
 
-.btn_green:hover {
-    cursor: pointer;
-    filter: brightness(50%);
-    transition: 0.2s;
-}
+
 
 .btn_green:active {
     transition: 0.2s;
-    filter: brightness(30%);
-
+    filter: brightness(70%);
 }
 
 /* Orange Buttons */
@@ -100,17 +99,75 @@
     
 }
 
-.btn_orange:hover {
-    cursor: pointer;
-    filter: brightness(50%);
-    transition: 0.2s;
-}
+
 
 .btn_orange:active {
     transition: 0.2s;
-    filter: brightness(30%);
+    filter: brightness(70%);
 
 }
+
+/* Yellow Buttons */
+
+.btn_yellow {
+    border: 0px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e5ff00;
+    transition: 0.2s;
+    
+}
+
+
+
+.btn_yellow:active {
+    transition: 0.2s;
+    filter: brightness(70%);
+
+}
+
+/* Cyan Buttons  */
+
+.btn_cyan {
+    border: 0px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #00ffdd;
+    transition: 0.2s;
+    
+}
+
+
+
+.btn_cyan:active {
+    transition: 0.2s;
+    filter: brightness(70%);
+
+}
+
+/* Blue Outlined Button */
+
+.btn_outlineblue {
+    height: 50px;
+    background: transparent;
+    border: 2px;
+    border-color: #0084ff;
+    border-style:solid;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.btn_outlineblue:active {
+    height: 50px;
+    background: #0084ff;
+    color: white;
+    border-style:solid;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+
+
 
 /* Inputs */
 
@@ -131,16 +188,38 @@
     color: white;
 }
 
+
+/* Dropdown */
+
 .dropdown_default {
-    border-radius: 100px;
+    border-radius: 10px;
     border: 0px;
-    background-color: #a1a1a1;
+    background-color: #00a2ff;
     transition: 0.2s;
+    width: 100px;
+    height: 30px;
+    color: white;
 }
 
-.dropdown_default:hover {
-    border-radius: 100px;
-    border: 0px;
-    background-color: #d3d3d3;
-    transition: 0.2s;
+.dropdown_default:active {
+    filter: brightness(70%);
 }
+
+
+/* Links */
+
+.link {
+    transition: 0.2s;
+    color: #0084ff;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.link:active {
+    transition: 0.5s;
+    filter: brightness(70%);
+}
+
+
